@@ -13,8 +13,10 @@
   "author": "Boris Musatov",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.16.2",
     "koa": "^2.3.0",
-    "koa-router": "^7.2.1"
+    "koa-router": "^7.2.1",
+    "sinon": "^3.3.0"
   },
   "devDependencies": {
     "chai": "^4.1.2",
