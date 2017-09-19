@@ -1,0 +1,19 @@
+swagger: "2.0"
+info:
+  description: "Simple API Example"
+  version: "1.0.0"
+  title: "Demo API"
+host: "localhost:3001"
+basePath: "/"
+schemes:
+  - "http"
+produces:
+  - "application/json"
+paths:
+  /:
+    get:
+      summary: Performs a sanity check
+      description: Just a test
+      responses:
+        200:
+          description: Some random json

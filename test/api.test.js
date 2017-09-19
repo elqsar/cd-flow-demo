@@ -18,7 +18,7 @@ const comments = [
       'laudantium enim quasi est quidem magnam voluptate ipsam eos tempora quo necessitatibus dolor quam autem quasi reiciendis et nam sapiente accusantium'
   }
 ]
-sinon.stub(api, 'getComments').returns(Promise.resolve(comments))
+sinon.stub(api, 'getComments').returns(Promise.resolve({ data: comments }))
 
 describe('routes:api:comments', () => {
   describe('GET /comments', () => {

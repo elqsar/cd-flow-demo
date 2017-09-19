@@ -16,7 +16,7 @@ router.get('/', async ctx => {
 router.get('/comments', async ctx => {
   const comments = await api.getComments()
   ctx.body = {
-    comments
+    comments: comments.data
   }
 })
 
